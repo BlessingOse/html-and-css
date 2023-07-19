@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    background: grey;
+    color: white;
+}
+button{
+    margin: 20px;
+    padding: 5px;
+    background: teal;
+    color: aliceblue;
+    border: none;
+    border-radius: 12px;
+}
+button:hover{
+    background: plum;
+    color: black;
+    font-size: 20px;
+}
